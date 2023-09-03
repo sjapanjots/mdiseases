@@ -12,17 +12,15 @@ parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Multiple Disease Prediction System',
-                          
-                          ['Diabetes Prediction',
-                           'Heart Disease Prediction',
-                           'Parkinsons Prediction'],
-                          icons=['activity','heart','person'],
-                          default_index=0)
+   with st.sidebar: 
+    
+    st.title("Multiple Desease Prediction System")
+    choice = st.radio("Navigation", ["Diabetes Prediction","Heart Disease Prediction","Parkinsons Prediction"])
+    st.info("This project with not 100% accurate as it is just based on choosen datasets.")
     
     
 # Diabetes Prediction Page
-if (selected == 'Diabetes Prediction'):
+   if choice == 'Diabetes Prediction':
     
     # page title
     st.title('Diabetes Prediction using ML')
@@ -75,7 +73,7 @@ if (selected == 'Diabetes Prediction'):
 
 
 # Heart Disease Prediction Page
-if (selected == 'Heart Disease Prediction'):
+if choice == 'Heart Disease Prediction':
     
     # page title
     st.title('Heart Disease Prediction using ML')
@@ -143,7 +141,7 @@ if (selected == 'Heart Disease Prediction'):
     
 
 # Parkinson's Prediction Page
-if (selected == "Parkinsons Prediction"):
+if choice == "Parkinsons Prediction":
     
     # page title
     st.title("Parkinson's Disease Prediction using ML")
