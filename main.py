@@ -16,7 +16,7 @@ with st.sidebar:
     
     st.title("Multiple Desease Prediction System")
     choice = st.radio("Navigation", ["Diabetes Prediction","Heart Disease Prediction","Parkinsons Prediction"])
-    st.info("Design And Developed by Japanjot Singh")
+    st.info("Project is not 100% accurate ")
     
     
 # Diabetes Prediction Page
