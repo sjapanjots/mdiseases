@@ -20,7 +20,8 @@ with st.sidebar:
     
     
 # Diabetes Prediction Page
-   if choice == 'Diabetes Prediction':
+
+ if choice == 'Diabetes Prediction':
     
     # page title
     st.title('Diabetes Prediction using ML')
@@ -68,7 +69,6 @@ with st.sidebar:
           diab_diagnosis = 'The person is not diabetic'
         
     st.success(diab_diagnosis)
-
 
 
 
