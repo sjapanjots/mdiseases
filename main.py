@@ -73,7 +73,7 @@ if choice == 'Diabetes Prediction':
 
 
 # Heart Disease Prediction Page
-if (selected == 'Heart Disease Prediction'):
+if choice == 'Heart Disease Prediction':
     
     # page title
     st.title('Heart Disease Prediction using ML')
