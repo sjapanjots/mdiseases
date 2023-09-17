@@ -30,28 +30,28 @@ if choice == 'Diabetes Prediction':
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        Pregnancies = st.text_input('Number of Pregnancies')
+        Pregnancies = st.text_input('Number of Pregnancies ( 0 - 17)')
         
     with col2:
-        Glucose = st.text_input('Glucose Level')
+        Glucose = st.text_input('Glucose Level (0 - 199)')
     
     with col3:
-        BloodPressure = st.text_input('Blood Pressure value')
+        BloodPressure = st.text_input('Blood Pressure value ( 0 - 122)')
     
     with col1:
-        SkinThickness = st.text_input('Skin Thickness value')
+        SkinThickness = st.text_input('Skin Thickness value ( 0 - 99)')
     
     with col2:
-        Insulin = st.text_input('Insulin Level')
+        Insulin = st.text_input('Insulin Level ( 0 - 846)')
     
     with col3:
-        BMI = st.text_input('BMI value')
+        BMI = st.text_input('BMI value ( 0 - 67.1) ')
     
     with col1:
-        DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
+        DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value ( 0.078 - 2.42 ) ')
     
     with col2:
-        Age = st.text_input('Age of the Person')
+        Age = st.text_input('Age of the Person ( 21 - 81)')
     
     
     # code for Prediction
@@ -80,40 +80,40 @@ if choice == 'Heart Disease Prediction':
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        age = st.text_input('Age')
+        age = st.text_input('Age ( 29 - 77)')
         
     with col2:
-        sex = st.text_input('Sex')
+        sex = st.text_input('Sex (male = 1 and female = 0)')
         
     with col3:
-        cp = st.text_input('Chest Pain types')
+        cp = st.text_input('Chest Pain types ( 0 - 3) ')
         
     with col1:
-        trestbps = st.text_input('Resting Blood Pressure')
+        trestbps = st.text_input('Resting Blood Pressure(94 - 200)')
         
     with col2:
-        chol = st.text_input('Serum Cholestoral in mg/dl')
+        chol = st.text_input('Serum Cholestoral in mg/dl ( 126 - 564) ')
         
     with col3:
-        fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl')
+        fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl ( 0 -1)')
         
     with col1:
-        restecg = st.text_input('Resting Electrocardiographic results')
+        restecg = st.text_input('Resting Electrocardiographic results ( 0-2)')
         
     with col2:
-        thalach = st.text_input('Maximum Heart Rate achieved')
+        thalach = st.text_input('Maximum Heart Rate achieved ( 71 -202)')
         
     with col3:
-        exang = st.text_input('Exercise Induced Angina')
+        exang = st.text_input('Exercise Induced Angina ( 0 -1 )')
         
     with col1:
-        oldpeak = st.text_input('ST depression induced by exercise')
+        oldpeak = st.text_input('ST depression induced by exercise ( 0 -6.2)')
         
     with col2:
-        slope = st.text_input('Slope of the peak exercise ST segment')
+        slope = st.text_input('Slope of the peak exercise ST segment( 0 -2)')
         
     with col3:
-        ca = st.text_input('Major vessels colored by flourosopy')
+        ca = st.text_input('Major vessels colored by flourosopy (0-4)')
         
     with col1:
         thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
@@ -148,70 +148,70 @@ if choice == "Parkinsons Prediction":
     col1, col2, col3, col4, col5 = st.columns(5)  
     
     with col1:
-        fo = st.text_input('MDVP:Fo(Hz)')
+        fo = st.text_input('MDVP:Fo(Hz) ( 88 - 260)')
         
     with col2:
-        fhi = st.text_input('MDVP:Fhi(Hz)')
+        fhi = st.text_input('MDVP:Fhi(Hz) (102 - 592) ')
         
     with col3:
-        flo = st.text_input('MDVP:Flo(Hz)')
+        flo = st.text_input('MDVP:Flo(Hz) (65 - 239)')
         
     with col4:
-        Jitter_percent = st.text_input('MDVP:Jitter(%)')
+        Jitter_percent = st.text_input('MDVP:Jitter(%) (0.001680 - 0.033160)')
         
     with col5:
-        Jitter_Abs = st.text_input('MDVP:Jitter(Abs)')
+        Jitter_Abs = st.text_input('MDVP:Jitter(Abs) ( 0.000007 - 0.000260)')
         
     with col1:
-        RAP = st.text_input('MDVP:RAP')
+        RAP = st.text_input('MDVP:RAP (0.000680 - 0.021440)')
         
     with col2:
-        PPQ = st.text_input('MDVP:PPQ')
+        PPQ = st.text_input('MDVP:PPQ (0.000920 - 0.019580)')
         
     with col3:
-        DDP = st.text_input('Jitter:DDP')
+        DDP = st.text_input('Jitter:DDP ( 0.002040 - 0.064330) ')
         
     with col4:
-        Shimmer = st.text_input('MDVP:Shimmer')
+        Shimmer = st.text_input('MDVP:Shimmer (0.009540 - 0.119080)')
         
     with col5:
-        Shimmer_dB = st.text_input('MDVP:Shimmer(dB)')
+        Shimmer_dB = st.text_input('MDVP:Shimmer(dB) (0.085000 - 1.302000)')
         
     with col1:
-        APQ3 = st.text_input('Shimmer:APQ3')
+        APQ3 = st.text_input('Shimmer:APQ3 (0.01026 - 0.03134)')
         
     with col2:
-        APQ5 = st.text_input('Shimmer:APQ5')
+        APQ5 = st.text_input('Shimmer:APQ5 (0.01161 - 0.04518)')
         
     with col3:
-        APQ = st.text_input('MDVP:APQ')
+        APQ = st.text_input('MDVP:APQ (0.01373 - 0.04368)')
         
     with col4:
-        DDA = st.text_input('Shimmer:DDA')
+        DDA = st.text_input('Shimmer:DDA ( 0.013640	- 0.169420)')
         
     with col5:
-        NHR = st.text_input('NHR')
+        NHR = st.text_input('NHR (0.000650 -  0.314820)')
         
     with col1:
-        HNR = st.text_input('HNR')
+        HNR = st.text_input('HNR (8.441000 - 33.047000 )')
         
     with col2:
-        RPDE = st.text_input('RPDE')
+        RPDE = st.text_input('RPDE (0.256570 - 0.685151)')
         
     with col3:
-        DFA = st.text_input('DFA')
+        DFA = st.text_input('DFA (0.574282 - 0.825288 )')
         
     with col4:
-        spread1 = st.text_input('spread1')
+        spread1 = st.text_input('spread1 (-7.964984 - -2.434031 )')
         
     with col5:
-        spread2 = st.text_input('spread2')
+        spread2 = st.text_input('spread2 ( 0.006274 - 0.450493)')
         
     with col1:
-        D2 = st.text_input('D2')
+        D2 = st.text_input('D2 ( 1.423287 - 3.671155)')
         
     with col2:
-        PPE = st.text_input('PPE')
+        PPE = st.text_input('PPE (0.044539 - 0.527367)')
         
     
     
