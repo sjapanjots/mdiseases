@@ -227,7 +227,8 @@ if choice == "Parkinsons Prediction":
           parkinsons_diagnosis = "The person does not have Parkinson's disease"
         
     st.success(parkinsons_diagnosis)
-    hide_st_style = """
+
+hide_st_style = """
             <style>
             footer {visibility: hidden;}
             header {visibility: hidden;}
