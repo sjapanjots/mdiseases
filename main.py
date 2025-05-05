@@ -2,7 +2,6 @@ import pickle
 import streamlit as st
 
 # loading the saved models
-
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
@@ -126,7 +125,6 @@ if choice == 'Heart Disease Prediction':
     heart_diagnosis = ''
     
     # creating a button for Prediction
-    
     if st.button('Heart Disease Test Result'):
         heart_prediction = heart_disease_model.predict([[age, sex, cp, trestbps, chol, fbs, restecg,thalach,exang,oldpeak,slope,ca,thal]])                          
         
