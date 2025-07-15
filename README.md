@@ -114,7 +114,3 @@ Data Scientist | ML Enthusiast
 📬 **Contact**: sjapanjots@gmail.com
 
 ---
-
-## ⚙️ License
-
-*(Add your chosen open-source license here)*
